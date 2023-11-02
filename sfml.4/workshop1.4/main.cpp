@@ -31,7 +31,7 @@ sf::Vector2f toEuclidean(float radius, float angle)
 
 void initCat(Cat &cat)
 {
-	if (!cat.catTexture.loadFromFile("C:/projects/sfml.4/workshop1.4/cat.png"))
+	if (!cat.catTexture.loadFromFile("cat.png"))
 	{
 		std::cout << "картинка не подгрузилась ";
 		return;
@@ -44,7 +44,7 @@ void initCat(Cat &cat)
 
 void initPointer(Pointer &pointer)
 {
-	if (!pointer.pointerTexture.loadFromFile("C:/projects/sfml.4/workshop1.4/pointer.png"))
+	if (!pointer.pointerTexture.loadFromFile("pointer.png"))
 	{
 		std::cout << "картинка не подгрузилась ";
 		return;
